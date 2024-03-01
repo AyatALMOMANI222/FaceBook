@@ -1,0 +1,168 @@
+.profile-friend-container {
+}
+.cover-img-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+}
+.cover-img {
+  width: 85%;
+  height: 350px;
+  border: 1px solid white;
+}
+.prof-img {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  top: 251px;
+  bottom: 0;
+  right: 0;
+  left: 195px;
+  border-radius: 100%;
+  border: 1px solid white;
+}
+
+.user-info-container {
+  margin-left: 450px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.user-info-container .username {
+  font-size: 26px;
+  font-weight: 700;
+}
+.user-info-container .bio {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(125, 125, 125);
+}
+.profile-friend-main {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-column-gap: 20px;
+  padding: 30px;
+}
+.profile-friend-main {
+  margin-top: 30px;
+}
+
+.intro-container {
+  border-radius: 10px;
+  background-color: white;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  box-shadow: 2px 2px 2px 2px rgba(136, 136, 136, 0.3);
+}
+.intro-container .title {
+  font-size: 20px;
+  font-weight: 700;
+}
+.intro-container .country {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+.intro-container .country .contant {
+  color: gray;
+  font-size: 16px;
+  font-weight: 500;
+}
+.intro-container .country .bold {
+  color: black;
+  margin-left: 10px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.right-section {
+  margin-right: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.right-section .posts-title {
+  border-radius: 10px;
+  background-color: white;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: 700;
+  box-shadow: 2px 2px 2px 2px rgba(136, 136, 136, 0.3);
+}
+.right-section .post-container {
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 2px 2px 2px 2px rgba(136, 136, 136, 0.3);
+  padding: 10px 20px;
+}
+
+.right-section .post-container .post-img {
+  height: auto;
+  width: auto;
+  max-height: 250px;
+  max-width: 100%;
+  margin-top: 10px;
+}
+.post-container .user-info {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.post-container .user-info .p-img {
+  width: 45px;
+  height: 45px;
+  border-radius: 100%;
+}
+.post-container .user-info .username {
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+.post-container .post-content {
+  font-size: 15px;
+  font-weight: 500;
+  padding-left: 60px;
+}
+.user-friends-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: white;
+  margin-top: 20px;
+  box-shadow: 2px 2px 2px 2px rgba(136, 136, 136, 0.3);
+}
+.user-friends-container .frinds-img {
+  width: 100px;
+  height: 100px;
+}
+.user-friends-container .one-friend {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.user-friends-container .one-friend .username {
+  font-size: 16px;
+  font-weight: 500;
+  background-color: white;
+  width: 100%;
+}
+.left-section .friends-title {
+  margin-top: 20px;
+  border-radius: 10px;
+  background-color: white;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: 700;
+  box-shadow: 2px 2px 2px 2px rgba(136, 136, 136, 0.3);
+}

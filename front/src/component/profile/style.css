@@ -1,0 +1,189 @@
+.profile-page-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.profile-imges-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+  padding: 20px;
+  background-color: rgba(95, 87, 87, 0.038);
+}
+.cover-photo {
+  width: 88%;
+  height: 310px;
+  border: 1px solid rgb(243, 243, 243);
+  border-radius: 5px;
+}
+.profile-photo {
+  position: absolute;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  top: 234px;
+  bottom: 0;
+  right: 0px;
+  left: 177px;
+  border: 1px solid rgb(243, 243, 243);
+}
+.first-section {
+  display: flex;
+  flex-direction: row;
+  gap: 400px;
+  padding-bottom: 20px;
+  margin-left: 85px;
+  margin-top: 10px;
+}
+.user-information-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+}
+.info {
+  font-size: 20px;
+  font-weight: 500;
+  color: rgb(10, 1, 36);
+}
+.post-container {
+  padding-right: 40px;
+}
+.post-container .note {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: gray;
+}
+.edit-information-btn {
+  width: 150px;
+  border: none;
+  outline: none;
+  border: none;
+  height: 40px;
+  font-size: 15px;
+}
+.edit-information-btn:active {
+  width: 150px;
+  border: none;
+  outline: none;
+}
+.edit-information-section {
+  height: 200px;
+  padding: 20px;
+}
+.edit-information {
+  display: grid;
+  width: 900px;
+  padding: 20px;
+  grid-template-columns: 50% 50%;
+  grid-column-gap: 20px;
+  grid-row-gap: 10px;
+  grid-column-gap: 10px;
+}
+.edit-information input {
+  height: 40px;
+  border: 1px solid rgba(157, 157, 157, 0.315);
+  border-radius: 5px;
+  padding: 20px;
+  outline: none;
+}
+.edit-infi-btn,
+.cancel-edit-info {
+  height: 40px;
+  width: 150px;
+  border: none;
+  background-color: #3c5a9a;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 20px;
+  outline: none;
+}
+.edit-infi-btn:hover,
+.cancel-edit-info:hover {
+  background-color: #5978b9;
+}
+.edit-infi-btn:active,
+.cancel-edit-info:active {
+  background-color: #112551;
+}
+.actions-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.edit-info-title {
+  font-weight: 600;
+  font-size: 20px;
+  color: rgb(1, 1, 38);
+  padding: 20px;
+  width: 100%;
+  border-bottom: 1px solid rgb(198, 198, 198);
+}
+.details-container-profile {
+  margin-left: 368px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+.profile-name {
+  font-weight: 500;
+  font-size: 23px;
+  color: rgb(2, 2, 43);
+}
+.main-page-container {
+  display: grid;
+  grid-template-columns: 30% 59%;
+  grid-template-rows: 10px 100px; /* تحديد ارتفاع الصفوف هنا */
+  grid-column-gap: 50px;
+}
+.imges-container {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: 100px;
+}
+.imgg {
+  height: 300px;
+  width: 400px;
+  border: 1px solid red;
+}
+.img-one {
+  height: 100%;
+  width: 100%;
+
+  border: 1px solid white;
+}
+
+.post-container {
+  display: flex;
+  flex-direction: column;
+}
+.img-post {
+  height: 221px;
+  width: 395px;
+}
+.my-posts {
+  font-size: 20px;
+  font-weight: 500;
+  color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.profile-post-container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 14px;
+  margin-top: 10px;
+}
+.profile-post-container .note {
+  font-size: 20px;
+  font-size: 600;
+  color: rgb(66, 66, 66);
+}

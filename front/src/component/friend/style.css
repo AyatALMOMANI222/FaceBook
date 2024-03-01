@@ -1,0 +1,28 @@
+body {
+  background-color: #f1cee63f;
+  background-size: cover;
+}
+.all_page {
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+}
+.navbar {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin-top: 20px;
+  justify-content:flex-start;
+  align-items: stretch;
+}
+.navbar img{
+    margin-right: 15px;
+}
+.main_page {
+  margin-top: 30px;
+  width: 60%;
+}
+.icon {
+    height: 30px;
+    width: 30px;
+  }

@@ -1,0 +1,78 @@
+.toast-container {
+  position: absolute;
+  top: 25px;
+  right: 30px;
+  width: 350px;
+  height: 115px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.05);
+  background-color: #fff;
+  padding: 10px;
+  transform: translateX(calc(100% + 30px));
+  transition: transform 0.8s cubic-bezier(0, -0.55, 0, 1);
+  z-index: 100000000000000000000000000000;
+}
+
+.toast-container.active {
+  transform: translateX(0%);
+}
+
+.toast-container .icons-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 20px;
+}
+
+.toast-container .icons-container .Succses {
+  font-size: 18px;
+  font-weight: 700;
+  color: #4ab701;
+}
+.toast-container .icons-container .Error {
+  font-size: 18px;
+  font-weight: 700;
+  color: red;
+}
+
+.toast-container .message {
+  font-size: 16px;
+  font-weight: 400;
+  color: gray;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.toast-container .progress {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 3px;
+  width: 100%;
+  background: #fff;
+}
+.toast-container .progress::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+}
+.toast-container .progress.Succses::before {
+  background-color: #4ab701;
+}
+
+.toast-container .progress.Error::before {
+  background-color: red;
+}
+
+.toast-container .progress.active::before {
+  animation: progress 3.5s linear forwards;
+}
+@keyframes progress {
+  100% {
+    right: 100%;
+  }
+}

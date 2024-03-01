@@ -1,0 +1,119 @@
+.container-notification-list {
+  position: relative;
+}
+.container-notification-list .Notifications-btn {
+  border: none;
+  background-color: #88888800;
+  color: rgb(78, 52, 229);
+  cursor: pointer;
+  outline: none;
+}
+
+.container-notification-list .open-notification {
+  position: absolute;
+  top: 77px;
+  right: 0;
+  left: -279px;
+  bottom: 0;
+}
+
+.notification-list-container {
+  width: 335px;
+  background-color: white;
+  border: 1px solid #ebecf2;
+  border-top: 0;
+  border-radius: 5px;
+  position: relative;
+  z-index: 100;
+}
+
+.notification-list-container .triangle {
+  position: absolute;
+  top: -17px;
+  bottom: 0;
+  right: 20px;
+  left: 286px;
+  width: 0;
+  height: 0;
+  border-left: 13px solid transparent;
+  border-right: 13px solid transparent;
+  border-bottom: 20px solid white;
+}
+
+.notification-list-container .notification-list--header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 15px 20px;
+  gap: 10px;
+  border: 1px solid #ebecf2;
+  border-top: 0;
+}
+
+.notification-list-container .notification-list--header .notification {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.notification-list-container .notification-list-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 20px;
+  gap: 10px;
+}
+.notification-list-container .notification-list-title .notification-list-icon {
+  border-radius: 100px;
+}
+
+.notification-list-container .notification-list-title .username {
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.notification-list-container .date {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 17px;
+  color: #9a9eb2;
+  padding: 5px 40px;
+}
+
+.notification-list-container .message {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 17px;
+  padding: 5px 40px;
+}
+
+.one-notification {
+  border-bottom: 1px solid #ebecf2;
+}
+
+.all-notification-container {
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  overflow: overlay;
+  cursor: pointer;
+
+  &::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: #f5f5f5;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 4px;
+    border: 2px solid #f5f5f5;
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+  }
+}

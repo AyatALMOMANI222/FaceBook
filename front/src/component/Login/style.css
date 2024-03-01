@@ -1,0 +1,77 @@
+.login-page-container {
+  height: calc(100vh - 100px);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(210, 205, 205, 0.398);
+  padding-top: 30px;
+}
+
+.login-page-container .login-page {
+  height: 400px;
+  width: 500px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  padding: 30px;
+  border-radius: 5px;
+}
+
+.login-page-container .login-page .login-btn {
+  background-color: #3c5a9a;
+  width: 150px;
+  border: none;
+  cursor: pointer;
+  height: 45px;
+  border-radius: 5px;
+  color: white;
+  font-size: 18px;
+  margin-top: 20px;
+}
+.login-page-container .login-page .login-btn:hover {
+  background-color: #5978b9;
+}
+.login-page-container .login-page .login-btn:active {
+  background-color: #112551;
+}
+.login-page-container .login-page .login-btn:focus {
+  outline: none;
+}
+.login-page-container .register_btn {
+  background-color: #cccccc00;
+  color: black;
+  cursor: pointer;
+}
+
+.register-btn-container {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-right: 30px;
+  width: 100%;
+}
+
+.register-btn-container .register_btn {
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  cursor: pointer;
+  color: rgb(3, 2, 28);
+  font-size: 17px;
+}
+.login-page .email,
+.login-page .password {
+  border: 1px solid #c7c7c7;
+  height: 45px;
+  border-radius: 5px;
+  padding-left: 20px;
+}
+.login-page .email:active,
+.login-page .password:active {
+  outline: none;
+}
+.login-page .email:focus,
+.login-page .password:focus {
+  outline: none;
+}

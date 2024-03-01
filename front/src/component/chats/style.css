@@ -1,0 +1,21 @@
+.chates-container {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  height: 100%;
+  align-items: center;
+}
+
+.chat-icon-container {
+  display: flex;
+  flex-direction: row;
+  gap: 7px;
+}
+
+.chat-icon-container .chat-btn {
+  border: none;
+  background-color: rgba(240, 248, 255, 0);
+  font-size: 14px;
+  font-weight: 600;
+  outline: none;
+}
